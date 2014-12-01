@@ -1,0 +1,38 @@
+
+$brand-primary:           #7A4CA3;
+$headings-color:          $brand-primary;
+
+$brand-secondary:         #F9F7C9;
+$brand-secondary-light:   lighten($brand-secondary, 10%);
+
+// 700, 400
+$font-family-base:        'Buenard', serif;
+
+$handwriting-font-family: 'Petit Formal Script', cursive;
+
+$headings-font-family:    $handwriting-font-family;
+$headings-font-weight:    400;
+
+$gray-lighter:            #FFF8E2;
+
+
+@import "../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap";
+
+
+body {
+  background: url(../img/pattern-7t79.png);
+}
+
+.jumbotron {
+  margin-top: 3em;
+  h1, .h2 {
+    color: $headings-color;
+    text-align: center;
+  }
+}
+
+.cursive {
+  font-family: $handwriting-font-family;
+}
+
+
