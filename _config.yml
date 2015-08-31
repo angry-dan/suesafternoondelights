@@ -7,3 +7,14 @@ url: "http://suesafternoondelights.co.uk" # the base hostname & protocol for you
 
 # Build settings
 markdown: kramdown
+
+prose:
+  rooturl: ''
+  siteurl: 'http://www.suesafternoondelights.co.uk'
+  media: 'media'
+  ignore:
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - assets
+    - bower_components
