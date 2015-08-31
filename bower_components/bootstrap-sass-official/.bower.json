@@ -1,6 +1,5 @@
 {
   "name": "bootstrap-sass",
-  "version": "3.0.3-0",
   "homepage": "https://github.com/twbs/bootstrap-sass",
   "authors": [
     "Thomas McDonald",
@@ -9,9 +8,10 @@
     "Gleb Mazovetskiy"
   ],
   "description": "bootstrap-sass is a Sass-powered version of Bootstrap, ready to drop right into your Sass powered applications.",
+  "moduleType": "globals",
   "main": [
-    "vendor/assets/stylesheets/bootstrap.scss",
-    "vendor/assets/javascripts/bootstrap.js"
+    "assets/stylesheets/_bootstrap.scss",
+    "assets/javascripts/bootstrap.js"
   ],
   "keywords": [
     "twbs",
@@ -29,13 +29,17 @@
     "Rakefile",
     "Gemfile"
   ],
-  "_release": "3.0.3-0",
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  },
+  "version": "3.3.5",
+  "_release": "3.3.5",
   "_resolution": {
     "type": "version",
-    "tag": "v3.0.3-0",
-    "commit": "41b7eb606faae4eaa5ac83500252cdf456053745"
+    "tag": "v3.3.5",
+    "commit": "fe686dbe44641fabbb8960fc9e549dd9d1670366"
   },
   "_source": "git://github.com/twbs/bootstrap-sass.git",
-  "_target": "~3.0.2",
+  "_target": "~3.3.5",
   "_originalSource": "bootstrap-sass-official"
 }
