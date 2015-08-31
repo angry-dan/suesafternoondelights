@@ -18,3 +18,9 @@ prose:
     - /_includes
     - assets
     - bower_components
+    - .gitignore
+    - CNAME
+    - Gruntfile.js
+    - bower.json
+    - favicon.ico
+    - package.json
