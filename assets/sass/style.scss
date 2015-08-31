@@ -1,4 +1,6 @@
-
+/*!
+ * Copyright Sue's afternoon delights.
+ */
 $brand-primary:           #7A4CA3;
 $headings-color:          $brand-primary;
 
@@ -15,8 +17,9 @@ $headings-font-weight:    400;
 
 $gray-lighter:            #FFF8E2;
 
+$icon-font-path:          "/bower_components/bootstrap-sass-official/assets/fonts/bootstrap";
 
-@import "../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap";
+@import "bootstrap";
 
 
 body {

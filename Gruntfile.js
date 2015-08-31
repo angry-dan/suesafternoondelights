@@ -13,7 +13,19 @@ module.exports = function(grunt) {
       dev: {
         options: {
           style: 'expanded',
-          compass: false
+          compass: false,
+          loadPath: 'bower_components/bootstrap-sass-official/assets/stylesheets'
+        },
+        files: {
+          '<%= project.assets %>/css/style.css':'<%= project.css %>'
+        }
+      },
+      prod: {
+        options: {
+          style: 'compressed',
+          compass: false,
+          loadPath: 'bower_components/bootstrap-sass-official/assets/stylesheets',
+          sourcemap: 'none'
         },
         files: {
           '<%= project.assets %>/css/style.css':'<%= project.css %>'
