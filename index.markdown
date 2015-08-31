@@ -1,6 +1,8 @@
 ---
 layout: home
+published: true
 ---
+
 Delicious home made cakes or desserts, no order too small.
 
 Treat your family, friends and colleagues, maybe for a special occasion or
