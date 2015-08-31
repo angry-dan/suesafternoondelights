@@ -1,0 +1,9 @@
+# Site settings
+title: Sue's Afternoon Delights
+email: delights4t@gmail.com
+description: "Indulgence on a plate! Sue's afternoon delights, providing delicious handmade cakes in London and Kent"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://suesafternoondelights.co.uk" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
